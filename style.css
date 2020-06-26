@@ -65,3 +65,13 @@ a:hover:after {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 500px) {
+    .name {
+        font-size: 25px;
+    }
+
+    .buttons {
+        font-size: 15px;
+    }
+}
