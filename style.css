@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.text {
+    font-family: 'PT Sans', sans-serif;
+    padding: 2%;
+    margin: auto;
+}
+
+.name {
+    margin-top: -10%;
+    font-style: bold;
+    font-size: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 75px;
+    height: 50px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:after {
+    border-bottom: 2px solid black;
+    display: block;
+    content: '';
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+a:hover:after {
+    transform: scaleX(1);
+
+}
+
+.big {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+}
